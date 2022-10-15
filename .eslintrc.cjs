@@ -4,7 +4,7 @@ module.exports = {
     es2021: true,
   },
   overrides: [],
-  ignorePatterns: ['*.d.ts', 'vite.config.ts'],
+  ignorePatterns: ['src/**/*.d.ts', 'vite.config.ts'],
   parser: 'vue-eslint-parser',
   parserOptions: {
     parser: '@typescript-eslint/parser',
@@ -15,8 +15,8 @@ module.exports = {
   },
   plugins: ['vue', '@typescript-eslint', 'prettier'],
   extends: [
-    'plugin:vue/vue3-essential',
     'standard-with-typescript',
+    'plugin:vue/vue3-essential',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
   ],

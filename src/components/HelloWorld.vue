@@ -11,14 +11,10 @@ function increment() {
 </script>
 
 <template>
-  <div class="bg-red-400 p-6">
+  <div class="bg-red-400 p-6 text-center text-3xl">
     <h1 class="text-blue-400">Hello {{ msg }}</h1>
     <button @click="increment">Counter {{ count }}</button>
   </div>
 </template>
 
-<style scoped>
-.read-the-docs {
-  color: #888;
-}
-</style>
+<style scoped></style>
